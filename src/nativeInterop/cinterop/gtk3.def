@@ -1,0 +1,3 @@
+headers = gtk/gtk.h
+headerFilter = gtk/*
+linkerOpts.mingw = -lglib-2.0 -lgdk-3 -lgtk-3 -lgio-2.0 -lgobject-2.0
